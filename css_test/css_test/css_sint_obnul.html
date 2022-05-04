@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Forms practice</title>
+    <link rel="stylesheet" href=" css/style.css">
 </head>
 <body>
-    <form action="#" method="post" enctype="multipart/form-data">
+<form action="#" method="post" enctype="multipart/form-data">
     <div>
         <p> Surname <br><input tabindex="1" placeholder="Enter your surname" type="text"> </p>
     </div>
@@ -18,19 +19,19 @@
         <p> Father's name <br><input tabindex="3" placeholder="Enter your father's name" type="text"> </p>
     </div>
 
-     <div>
+    <div>
         <p> Phone number <br><input tabindex="4" placeholder="Enter your phone number" type="tel"> </p>
     </div>
     <br>
 
-    <div>Gender:
+    <div class="gender-field">Gender:
         <p> <input checked tabindex="5" type="radio" name="gender" value="male" /> Male </p>
         <p> <input tabindex="5" type="radio" name="gender" value="female" /> Female </p>
     </div>
 
     <br>
 
-    <div>Property:
+    <div class="property-field">Property:
         <p><input tabindex="6" type="checkbox" name="bicycle" value="yes"> Bicycle </p>
         <p><input checked tabindex="7" type="checkbox" name="car" value="yes"> Car </p>
         <p><input tabindex="8" type="checkbox" name="Bus" value="yes"> Bus </p>
@@ -38,16 +39,16 @@
 
 
     <div>Additional information:
-        <p><textarea tabindex="9" placeholder="Some info about you" name="Additional information" cols="30" rows="10"></textarea></p>
+        <p><textarea tabindex="9" placeholder="Some info about you" name="Additional information" cols="30" rows="10" ></textarea></p>
     </div>
 
     <div>
         <p> Add your photo: <input tabindex="10" type="file" name="photo">  </p>
     </div>
 
-    
+
     <div>Age:
-        <select name="age" >
+        <select name="age" class="age-field">
             <option value="18-27"> 18-27 </option>
             <option value="28-40"> 28-40 </option>
             <option value="41-55"> 41-55 </option>
@@ -63,7 +64,13 @@
     <div>
         <button tabindex="13" type="submit"> PIZDEC </button>
     </div>
-    </form>
+
+    <div>
+        <p> Lorem ipsum dolor sit amet.</p>
+        <span> Lorem ipsum dolor</span>
+    </div>
+
+</form>
 
 </body>
 </html>
