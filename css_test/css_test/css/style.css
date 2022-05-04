@@ -1,24 +1,29 @@
-div{
+.site-header{
+    font-size: 40px;
+    color: brown;
+    border: 5px;
+    text-align: center;
+
+}
+
+.site-description{
     font-size: 30px;
-    color: blue;
+    color: fuchsia;
+    border: 5px;
+    text-align: center;
 }
 
-span{
+div.main-navigation-menu{
     font-size: 20px;
-    color: red;
+    color: seagreen;
+    border: 5px;
+    text-align: center;
 }
 
-.age-field{
+.secondary-header{
     font-size: 25px;
-    color: saddlebrown;
+    color: aqua;
+    border: 5px;
+    text-align: center;
 }
 
-.gender-field{
-    font-size: 25px;
-    color: sandybrown;
-}
-
-.property-field{
-    font-size: 45px;
-    color: rosybrown;
-}

@@ -1,76 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Forms practice</title>
-    <link rel="stylesheet" href=" css/style.css">
-</head>
-<body>
-<form action="#" method="post" enctype="multipart/form-data">
-    <div>
-        <p> Surname <br><input tabindex="1" placeholder="Enter your surname" type="text"> </p>
-    </div>
 
-    <div>
-        <p> Name <br><input tabindex="2" placeholder="Enter your name" type="text"> </p>
-    </div>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+        <title>Forms practice</title>
+        <link rel="stylesheet" href=" css/style.css">
+    </head>
 
-    <div>
-        <p> Father's name <br><input tabindex="3" placeholder="Enter your father's name" type="text"> </p>
-    </div>
+    <body>
+        <header class="site-header" role="banner">
+            <div>
+                <h1 class="site-title">
+                    <a href="https://www.d-h.st/"> Dev Host </a>
+                </h1>
+                <p class="site-description">Business and Tech News on the Daily</p>
+            </div>
+        </header>
 
-    <div>
-        <p> Phone number <br><input tabindex="4" placeholder="Enter your phone number" type="tel"> </p>
-    </div>
-    <br>
+        <div class="main-navigation-menu">
+            <ul>
+                <li>
+                    <a href="https://www.d-h.st/" aria-current="page" target="_blank"> Home </a>
+                </li>
+                <li>
+                    <a href="https://www.google.com/" aria-current="page" target="_blank"> Google </a>
+                </li>
+                <li>
+                    <a href="https://www.yandex.ru" aria-current="page" target="_blank"> Yandex </a>
+                </li>
+                <li>
+                    <a href="https://www.mail.ru" aria-current="page" target="_blank"> Mail </a>
+                </li>
+                <li>
+                    <a href="https://www.pikabu.ru" aria-current="page" target="_blank"> Pikabu </a>
+                </li>
+                <li>
+                    Pikabu
+                </li>
+            </ul>
+        </div>
 
-    <div class="gender-field">Gender:
-        <p> <input checked tabindex="5" type="radio" name="gender" value="male" /> Male </p>
-        <p> <input tabindex="5" type="radio" name="gender" value="female" /> Female </p>
-    </div>
+        <div>
+            <h2 class="secondary-header">
+                Secondary site header
+            </h2>
+        </div>
+    </body>
 
-    <br>
-
-    <div class="property-field">Property:
-        <p><input tabindex="6" type="checkbox" name="bicycle" value="yes"> Bicycle </p>
-        <p><input checked tabindex="7" type="checkbox" name="car" value="yes"> Car </p>
-        <p><input tabindex="8" type="checkbox" name="Bus" value="yes"> Bus </p>
-    </div>
-
-
-    <div>Additional information:
-        <p><textarea tabindex="9" placeholder="Some info about you" name="Additional information" cols="30" rows="10" ></textarea></p>
-    </div>
-
-    <div>
-        <p> Add your photo: <input tabindex="10" type="file" name="photo">  </p>
-    </div>
-
-
-    <div>Age:
-        <select name="age" class="age-field">
-            <option value="18-27"> 18-27 </option>
-            <option value="28-40"> 28-40 </option>
-            <option value="41-55"> 41-55 </option>
-            <option value="56+"> 56+ </option>
-        </select>
-    </div>
-    <br>
-    <div>
-        <button tabindex="11" type="submit" > Send data </button>
-        <button tabindex="12" type="reset" > Reset data </button>
-    </div>
-
-    <div>
-        <button tabindex="13" type="submit"> PIZDEC </button>
-    </div>
-
-    <div>
-        <p> Lorem ipsum dolor sit amet.</p>
-        <span> Lorem ipsum dolor</span>
-    </div>
-
-</form>
-
-</body>
 </html>
