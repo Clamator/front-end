@@ -1,0 +1,56 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/**/
+.ex-block{
+    border: 1px solid black; /*solid dotted dashed можно указывать границы по отдельности*/
+    border-radius: 20px; /*скругление*/
+    font-size: 50px;
+    box-shadow: 5px 5px 10px 5px black;
+    padding: 15px;
+    margin: 20px;
+    /*outline: 10px solid black; внешняя граница, почти как бордер, но от границы идет вовне
+    а не внутрь, как бордер, который сдвигает содержимое блока*/
+    opacity: 0.5; /* прозрачность от 0 до 1, элемент не исчезает, если проз == 0*/
+}
+
+.ex-block2{
+    visibility: collapse; /* отличие от опасити в том, что с блоком уже нельзя
+    взаимодействовать, а с опасити можно, */
+    font-style: italic;
+    font-size: 30px;
+}
+
+.ex-string{
+    font-size: 50px;
+}
+
+.ex-image{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    margin: 100px;
+    box-shadow: 5px 5px 10px 5px black; /* inset box-shadow: 5px 5px 10px 5px black; делает тень внутрь */
+}
+
+.main-table{
+    font-size: 30px;
+    text-align: center;
+    border-spacing: 15px 0;
+    opacity: 0.19;
+    margin: 100px;
+    border: 10px dotted black;
+    padding: 100px;
+}

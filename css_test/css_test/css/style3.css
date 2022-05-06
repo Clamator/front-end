@@ -1,13 +1,37 @@
 .ex-block{
-    padding: 10%;
-    margin: 5%;
+    padding: 1%;
+    border: 1px solid red;
+    overflow: auto;
+    max-height: 400px;
+    font-size: 30px;
+    margin: 0 0 20px 0;
 }
 
 .ex-string{
-
+    font-size: 30px;
+    display: block; /* делает строку блоком*/
+    margin: 0 0 20px 0;
 }
 
 .ex-image{
-    width: 100%;
-
+    width: 30%;
+    display: none; /* заставляет исчезнуть контент */
+    margin: 0 0 20px 0;
 }
+
+.ex-block2{
+    font-size: 30px;
+    /* isplay: inline;  делает блок строкой*/
+    margin: 0 0 20px 0;
+}
+
+.ex-string2{
+    display: inline-block; /* оставляет строку строкой, но ведет себя как блок*/
+    font-size: 30px;
+    padding: 1%;
+    border: 1px solid red;
+    width: 600px;
+    text-align: -webkit-center;
+    margin: 0 0 20px 0;
+}
+
