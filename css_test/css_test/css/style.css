@@ -32,3 +32,15 @@ p.choose-file2{
     font-size: 30px;
     alignment-baseline: center;
 }
+
+
+.file-chooser{
+    margin: auto;
+    font-size: 30px;
+    color: rebeccapurple;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}

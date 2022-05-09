@@ -1,0 +1,82 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+
+.main-header-paragraph{
+    text-align: center;
+    border: 1px dotted salmon;
+    margin: 10px;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 40px;
+    color: mediumblue;
+    border-radius: 15px;
+    background-color: rgba(173, 216, 230, 0.6);
+
+}
+
+.body{
+    padding: 30px;
+}
+
+/*.body1{*/
+/*    background: url("../img/444.jpeg") center repeat-x fixed;*/
+/*    background-size: auto;*/
+/*}*/
+.body1{
+    /*background: url('../img/DSC_0038.jpg') 100% center no-repeat, url('../img/DSC_0031.jpg') center no-repeat, url('../img/DSC_0032.jpg') center no-repeat;*/
+
+}
+
+.block{
+    height: 250px;
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: 0 0 10px black;
+    background: linear-gradient(to bottom, #bcf4d0 0%,#a6ddda 20%,#99cccc 40%,#accae5 60%,#8fa4ba 80%,#98b0d9 100%);
+}
+
+.block2{
+    height: 250px;
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: 0 0 10px black;
+    /*background: url("../img/1.png");*/
+    background: #fff url('../img/444.jpeg') 50% no-repeat fixed;
+    background-size: cover;
+}
+
+.block3{
+    height: 1944px;
+    /*margin: 36px;*/
+    background: #000 url("../img/DSC_0038.jpg");
+}
+
+.block4{
+    height: 1944px;
+    /*margin: 36px;*/
+    background: #000 url("../img/DSC_0031.jpg");
+}
+
+.block5{
+    height: 1944px;
+    /*margin: 36px;*/
+    background: #000 url("../img/DSC_0032.jpg");
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
