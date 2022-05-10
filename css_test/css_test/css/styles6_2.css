@@ -1,0 +1,141 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+
+body{
+    background: #e8e8e8;
+}
+
+.content{
+
+    padding: 100px 0 100px 0;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.content-top{
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0 0 30px 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.first-list{
+    padding: 0 0 40px 0;
+}
+
+.first-list li{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0 0 15px 0;
+    background: url("../img/icons/check.png") left no-repeat;
+    padding: 0 0 0 35px;
+
+}
+
+.first-list li:nth-child(1){
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+    color: #273d46;
+    text-decoration: line-through;
+}
+.first-list li:nth-child(2){
+    /*color: #80b7b3;*/
+    font-weight: bold;
+}
+.first-list li:nth-child(3){
+    color: #273d46;
+    font-style: italic;
+}
+.first-list li:nth-child(4){
+    color: #273d46;
+    text-transform: uppercase;
+}
+
+.first-list li:nth-child(1):hover{
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+    color: #273d46;
+    text-decoration: unset;
+}
+.first-list li:nth-child(2):hover{
+    color: red;
+    font-weight: bold;
+    background: url("../img/nike.jpg") left no-repeat;
+
+}
+.first-list li:nth-child(3):hover{
+    color: #273d46;
+    font-style: unset;
+}
+.first-list li:nth-child(4):hover{
+    color: #273d46;
+    text-transform: unset;
+}
+
+.content_bottom-info__link{
+    height: 44px;
+    display: inline-block;
+    padding: 0 30px;
+    line-height: 44px;
+    background-color: #80b7b3;
+    box-shadow: 0 6px 40px #80b7b3;
+    border-radius: 25px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    margin: 0 0 60px 0;
+ ;
+}
+
+.content_bottom-info__link:hover{
+    background-color: #273d46;
+    box-shadow: 0 6px 40px #273d46;
+}
+
+.content_bottom-info__link:active{
+    background-color: dimgrey;
+    box-shadow: 0 6px 40px dimgrey;
+}
+
+.content_bottom-info__link span{
+    background: url('../img/icons/arrow.svg') right no-repeat;
+    padding: 0 30px 0 0;
+}
+
+.textinput{
+    height: 30px;
+    width: 200px;
+    border: 1px solid grey;
+    margin: 0 0 10px 0;
+}
+
+.textinput:focus{
+    box-shadow: 0 6px 40px #80b7b3;
+}
+
+.textbutton {
+    color: #273d46;
+    display: block;
+    height: 30px;
+    font-size: 18px;
+    background-color: #42beec;
+    width: 200px;
+    border-radius: 15px;
+    margin: 0 0 30px 0;
+    text-transform: lowercase;
+}
+
