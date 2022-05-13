@@ -63,20 +63,21 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 .block3{
     height: 1944px;
     /*margin: 36px;*/
-    background: #000 url("../img/DSC_0038.jpg");
+    background: #000 url("../img/39.jpg");
 }
 
 .block4{
     height: 1944px;
     /*margin: 36px;*/
-    background: #000 url("../img/DSC_0031.jpg");
+    background: #000 url("../img/31.jpg");
 }
 
 .block5{
     height: 1944px;
     /*margin: 36px;*/
-    background: #000 url("../img/DSC_0032.jpg");
+    background: #000 url("../img/32.jpg");
     text-align: center;
     font-size: 40px;
     color: black;
+
 }
