@@ -22,7 +22,8 @@ body {
     color: #000;
     min-width: 320px;
     overflow-x: hidden;
-    height: auto;
+    height: 1500px;
+/* высоту потом можно поправить   */
 }
 
 .navbar{
@@ -30,6 +31,7 @@ body {
     height: 70px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     background-color: #98b0d9;
+    position: fixed;
 }
 
 .navbar .container{
