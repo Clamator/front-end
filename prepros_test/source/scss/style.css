@@ -1,4 +1,4 @@
-@import url("prepros_test/nullstyle.scss");
+@import url("../css_test/css_test/cscc/nullstyle.css");
 .block .block__text, .link-2 {
   border-bottom: 2px dotted red;
   background-color: red;
