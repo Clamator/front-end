@@ -1,0 +1,26 @@
+{
+  "name": "preprocess",
+  "version": "1.0.0",
+  "description": "preprocess test",
+  "main": "index.js",
+  "scripts": {
+    "test": "'test\": \"echo \\\"Протестирован и проверен\\\" && exit 1'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clamator/front-end.git"
+  },
+  "keywords": [
+    "preprocess"
+  ],
+  "author": "Clamator",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Clamator/front-end/issues"
+  },
+  "homepage": "https://github.com/Clamator/front-end#readme",
+  "dependencies": {
+    "sass": "^1.51.0",
+    "scss": "^0.2.4"
+  }
+}

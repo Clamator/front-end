@@ -1,0 +1,67 @@
+// импорт стилей
+@import url('prepros_test/nullstyle.scss');
+
+//переменные - это когда ты в нее пихаешь данные, и потом используешь
+$fz:60px;
+
+// шаблоны
+%tblborder{
+  border-bottom: 2px dotted red;
+  background-color: red;
+  color: green;
+}
+
+// миксины как и шаблоны, но работают чуть иначе
+@mixin fnsz($f){
+  font-size: $f;
+}
+
+
+.block{
+  //математическое выставление ширины блока
+  width: 300 / 960 * 100%;
+  padding: 30px;
+  text-align: center;
+  line-height: 40px;
+  >p{
+    color: green;
+  }
+  .block__text{
+    font-size: 50px;
+    span{
+      color: red;
+    }
+    @extend %tblborder
+  }
+  &.block__big{
+    >p:first-letter{
+      font-size: $fz;
+      color: red;
+    }
+  }
+}
+// & можно использовать и до, и после класса
+.link{
+  color: green;
+  &:hover{
+    color: #913f0e;
+    font-size: $fz;
+  }
+  &:visited{
+    color: sandybrown;
+  }
+  &:before{
+    content: '';
+  }
+  // & можно использовать и до, и после класса,
+  .block &{
+    font-size: 40px;
+  }
+}
+
+.link-2{
+  @include fnsz(100px);
+  @extend %tblborder;
+
+}
+

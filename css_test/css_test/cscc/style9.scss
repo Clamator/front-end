@@ -1,0 +1,88 @@
+// импорт стилей
+@import url('prepros_test/nullstyle.scss');
+
+@mixin fnsz($f, $lh, $op, $c){
+  font-size: $f;
+  line-height: $lh;
+  opacity: $op;
+  color: $c;
+}
+
+
+
+%cntloc{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+%tblborder{
+  //border-bottom: 2px dotted red;
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+%tblborder{
+  //border-bottom: 2px dotted red;
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+%bdsz{
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+body{
+  width: 1280px;
+  padding: 30px;
+  position: relative;
+  background-color: #accae5;
+  margin: 0 auto;
+}
+
+.block{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  //background-color: #0d6efd;
+}
+
+.block__text{
+  @extend %cntloc
+}
+
+.main-header{
+  padding-top: 100px;
+  margin-bottom: 50px;
+  @extend %cntloc;
+  @extend %bdsz;
+  @include fnsz(30px, 25px, 0.7, #f60101);
+  //background-color: #8fa4ba;
+
+}
+
+.parag{
+  @include fnsz(30px, 35px, 0.7, green);
+  @extend %bdsz;
+  text-align: center;
+}
+
+.main-list{
+  @include fnsz(30px, 35px, 0.7, green);
+  .list2{
+    font-size: 40px;
+    color: red;
+    &:hover{
+      color: #0d6efd;
+    }
+  }
+
+}
+
+.list li{
+  @extend %tblborder;
+  //line-height: 30px;
+  padding-bottom: 20px;
+}
+

@@ -1,0 +1,37 @@
+@import url("prepros_test/nullstyle.scss");
+.block .block__text, .link-2 {
+  border-bottom: 2px dotted red;
+  background-color: red;
+  color: green; }
+
+.block {
+  width: 31.25%;
+  padding: 30px;
+  text-align: center;
+  line-height: 40px; }
+  .block > p {
+    color: green; }
+  .block .block__text {
+    font-size: 50px; }
+    .block .block__text span {
+      color: red; }
+  .block.block__big > p:first-letter {
+    font-size: 60px;
+    color: red; }
+
+.link {
+  color: green; }
+  .link:hover {
+    color: #913f0e;
+    font-size: 60px; }
+  .link:visited {
+    color: sandybrown; }
+  .link:before {
+    content: ''; }
+  .block .link {
+    font-size: 40px; }
+
+.link-2 {
+  font-size: 100px; }
+
+/*# sourceMappingURL=style.css.map */
