@@ -1,5 +1,5 @@
 // импорт стилей
-@import url('prepros_test/nullstyle.scss');
+@import 'nullstyle.scss';
 
 @mixin fnsz($f, $lh, $op, $c){
   font-size: $f;
@@ -57,7 +57,7 @@ body{
   margin-bottom: 50px;
   @extend %cntloc;
   @extend %bdsz;
-  @include fnsz(30px, 25px, 0.7, #f60101);
+  @include fnsz(80px, 25px, 0.7, #f60101);
   //background-color: #8fa4ba;
 
 }

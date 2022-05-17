@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -56,62 +58,44 @@ h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: inherit; }
 
-.block__text, .main-header {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; }
+.container {
+  height: 0px;
+  width: 1357px;
+  margin: 0 auto;
+  background-color: green; }
 
-.list li {
+.main-block {
+  height: 502px;
+  width: 450px;
+  margin: 233.5px 453.5px 0 453.5px;
+  border-radius: 8px;
+  border: 1px solid #dadce0; }
+
+.logo {
+  margin-top: 40px;
   font-size: 30px;
-  color: whitesmoke; }
-
-.list li {
-  font-size: 30px;
-  color: whitesmoke; }
-
-.main-header, .parag {
-  padding-bottom: 30px;
-  width: 100%; }
-
-body {
-  width: 1280px;
-  padding: 30px;
-  position: relative;
-  background-color: #accae5;
-  margin: 0 auto; }
-
-.block {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row; }
-
-.main-header {
-  padding-top: 100px;
-  margin-bottom: 50px;
-  font-size: 80px;
-  line-height: 25px;
-  opacity: 0.7;
-  color: #f60101; }
-
-.parag {
-  font-size: 30px;
-  line-height: 35px;
-  opacity: 0.7;
-  color: green;
   text-align: center; }
 
-.main-list {
-  font-size: 30px;
-  line-height: 35px;
-  opacity: 0.7;
-  color: green; }
-  .main-list .list2 {
-    font-size: 40px;
-    color: red; }
-    .main-list .list2:hover {
-      color: #0d6efd; }
+.title__enter {
+  margin-top: 20px;
+  font-size: 24px;
+  text-align: center; }
+.title__use {
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: center; }
 
-.list li {
-  padding-bottom: 20px; }
+.entry-block__enter-mail {
+  font-size: 30px; }
+.entry-block__mail {
+  font-size: 30px; }
+.entry-block__mail_area {
+  font-size: 30px; }
+.entry-block__text {
+  font-size: 30px; }
+.entry-block__create-acc {
+  font-size: 30px; }
+.entry-block__go {
+  font-size: 30px; }
 
-/*# sourceMappingURL=style9.css.map */
+/*# sourceMappingURL=style_google.css.map */

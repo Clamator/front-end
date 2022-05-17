@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>БЭМ</title>
+    <link rel="stylesheet" href="cscc/style10.css">
+</head>
+    <body>
+        <div class="about">
+            <!--будет ограничивать ширину -->
+            <div class="about__body">
+                <div class="about__header">
+                    <div class="about__title title">ABOUT</div>
+                    <div class="about__text">We specialize in contemporary, functional,
+                        and stunning websites with design that really brings
+                        that "WOW" factor. In our design process, we make sure to stay
+                        one step ahead of the latest trends, never forgetting to abide
+                        by key web standards.</div>
+                </div>
+                <div class="about__row">
+                    <div class="about__column">
+                        <div class="item-about">
+                            <div class="item-about__icon">
+                                <img src="img/about/01.png" alt="">
+                            </div>
+                            <div class="item-about__title">WEB</div>
+                            <div class="item-about__text">We tend to deliver unique and
+                                functional design, through innovation and creativity.</div>
+                        </div>
+                    </div>
+                    <div class="about__column">
+                        <div class="item-about__icon">
+                            <img src="img/about/02.png" alt="">
+                        </div>
+                        <div class="item-about__title">IOS AND ANDROID</div>
+                        <div class="item-about__text">We seek to bring new businesses
+                            and customers closer together through valuable insights and
+                            proper targeting.</div>
+                    </div>
+                    <div class="about__column">
+                        <div class="item-about__icon">
+                            <img src="img/about/03.png" alt="">
+                        </div>
+                        <div class="item-about__title">MARKETING</div>
+                        <div class="item-about__text">We’ll help you establish the right
+                            goals and build the right paths. Success depends on setting
+                            the right intention.</div>
+                    </div>
+
+<!--                    <a href="mailto:kalmah23@gmail.com">Mail</a>-->
+                </div>
+                <div class="just-tag" aria-label="Сохранило 700 человек"></div>
+            </div>
+        </div>
+    </body>
+</html>
+
+<!--
+
+блок - функционально независимый компонент страницы, который мб использован
+множество раз. Когда создаем имя класса блоку, отвечаем на вопрос "что это".
+допустима любая вложенность блоков,
+
+элемент - составная часть блока, не мб использована в отрыве от него,
+отвечает на вопрос "что это", синтаксис имени имя-блока__имя-элемента.
+элементы можно вкладывать друг в друга, допустима любая вложенность элементов,
+элемент - всегда часть блока, а не другого элемента. Поэтому при именовании надо использовать
+имя класса блока, а не имя элемента, в котором находится другой элемент.
+элемент - не обязательный компонент блока.
+
+создаем блок, когда фрагмент кода уже используется на этой или другой странице или
+мб использован повторно. Создаем элемент, если фрагмент кода не мб или не будет использоваться
+самостоятельно
+
+модификатор - применяется для определения или уточнения внешнего вида, состояния или поведения
+блока либо элемента. Когда нужно выделить объект из множества таких же
+имя класса отвечает на вопрос "какой,как выглядит, как себя ведет"
+синтаксис:
+имя-блока__имя-элемента_имя-модификатора
+имя-блока_имя-модификатора
+
+    <nav class="menu">
+        <a href="#" class="menu__item menu__item_active">text</a>
+        <a href="#" class="menu__item">text</a>
+        <a href="#" class="menu__item">text</a>
+        <a href="#" class="menu__item">text</a>
+    </nav>
+
+прием Микс - прием, позволяющий использовать и блоки,и элементы в одном объекте
+миксы позволяют совмещать поведение и стили нескольких объектов без дублирования кода,
+создавать семантически новые компоненты интерфейса на основе существующих
+<div class="about">
+    <div class="about__title title">Title</div>
+    <div class="about__subtitle subtitle">Subtitle</div>
+</div>
+
+-->
+
