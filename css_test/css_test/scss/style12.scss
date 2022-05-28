@@ -1,0 +1,94 @@
+@import 'nullstyle.scss';
+
+.wrapper{
+  height: 100%;
+  overflow: hidden;
+  min-height: 100%;
+  padding: 50px;
+}
+
+body{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.block{
+  //text-align: center;
+}
+
+.block__row{
+  //display: inline-flex; становится типа строкой, можно применять всякие штучки
+  display: flex;
+  //justify-content: flex-end;
+  //justify-content: center; разместить в центре или справа можно так
+  //justify-content: space-between; размещяет элементы от начала и до конца блока
+  // при этом делая одинаковое расстояние между элементами 1__2__3
+  //justify-content: space-around; оставляет одинаковые отступы и справа, и слева элементов
+  // при этом образуется двоейное расстояние между элементами типа _1__2__3_
+  //justify-content: space-evenly; делает равные расстояния от границ по бокам
+  // и между элементами типа __1__2__3__
+
+  //align-items: stretch; значения по умолчанию
+  //align-items: flex-start; подтягивает наверх
+  //align-items: flex-end; опускает вниз
+  align-items: center; // размещяет в центре
+  //align-items: baseline; выстраивает элементы по базовой линии
+  border: 20px solid #ece89d;
+  margin: 0 0 20px 0;
+
+  flex-wrap: wrap; // позволяет перемещать элемент, если ему не хватает места в окне
+  // flex-wrap: wrap-reverse; также смещаются, но вверх ногами
+}
+
+.block__column{
+  border: 20px solid #5e5373;
+}
+
+.block__item{
+  background-color: #18b5a4;
+  padding: 50px;
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.block__list{
+  display: flex;
+  align-items: center;
+  li{margin: 0 15px 0 0;
+    &:last-child{
+      margin: 0px;
+    }
+  }
+}
+
+.block__info{
+  position: relative;
+  padding: 0 0 0 25px;
+}
+
+.block__info_y:before{
+  content: '';
+  width: 10px;
+  height: 10px;
+  background-color: #ece89d;
+  display: inline-block;
+  margin: 0 10px 0 0;
+}
+
+.block__info_p:before{
+  content: '';
+  width: 10px;
+  height: 10px;
+  background-color: #5e5373;
+  display: inline-block;
+  margin: 0 10px 0 0;
+}
+
+.block__info_g:before{
+  content: '';
+  width: 10px;
+  height: 10px;
+  background-color: #18b5a4;
+  display: inline-block;
+  margin: 0 10px 0 0;
+}

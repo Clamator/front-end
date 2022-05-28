@@ -58,44 +58,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: inherit; }
 
-.container {
-  height: 0px;
-  width: 1357px;
-  margin: 0 auto;
-  background-color: green; }
-
-.main-block {
-  height: 502px;
-  width: 450px;
-  margin: 233.5px 453.5px 0 453.5px;
-  border-radius: 8px;
-  border: 1px solid #dadce0; }
-
-.logo {
-  margin-top: 40px;
-  font-size: 30px;
-  text-align: center; }
-
-.title__enter {
-  margin-top: 20px;
+.pizdec {
+  font-family: "PT Sans";
   font-size: 24px;
-  text-align: center; }
-.title__use {
-  margin-top: 10px;
-  font-size: 20px;
-  text-align: center; }
+  width: 60%;
+  margin: 0 auto; }
 
-.entry-block__enter-mail {
-  font-size: 30px; }
-.entry-block__mail {
-  font-size: 30px; }
-.entry-block__mail_area {
-  font-size: 30px; }
-.entry-block__text {
-  font-size: 30px; }
-.entry-block__create-acc {
-  font-size: 30px; }
-.entry-block__go {
-  font-size: 30px; }
-
-/*# sourceMappingURL=style_google.css.map */
+/*# sourceMappingURL=style11.css.map */

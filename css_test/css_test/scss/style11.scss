@@ -1,0 +1,43 @@
+//метатеги делятся на 4 категории: 1. теги, влияющие на отображение контента,
+// 2. Технические теги, 3. Теги для соцсетей, 4. Теги для SEO,
+
+//в том случае, если адаптивная верстка не нужна, указываем фиксир. знач-е  -->
+//<meta name="viewport" content="width1170">
+
+// если нужна, то в контент пишем вот так
+//<meta name="viewport" content="device-width">
+
+//можно настроить отображение и на мобильных устройствах, тут указываем ширину - ширина устр.
+// изначальный масштаб, затем макс. масштаб, затем возм-ть юзера масштабировать
+// <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,
+//    user-scalable=0">
+
+// нужен для того, чтобы айфон не отображал ссылкой номер, когда он не указан ссылкой
+// по умолчанию идет yes
+// <meta name="format-detection" content="telephone=no">
+
+//<!--  SEO теги - сео, типа продвижение сайта  -->
+//    <meta name="description" content="Что такое теги, для чего они нужны?">
+//    <!--потом добавляем кл. слова, не более 20 штук-->
+//    <meta name="keywords" content="мета теги, meta tags">
+
+// работа с индексацией страницы
+// <meta name="robots" content="noindex, nofollow"> или content="none" - запрет индексации
+
+// <meta name="robots" content="noimageindex, nofollow"> - запрет на индексацию картинок
+
+// <meta http-equiv="refresh" content="5; url=https://google.com">
+// используется для того, чтобы перенаправить юзера на другую страницу, например,с 404 на главную
+
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+@import 'nullstyle.scss';
+
+.pizdec{
+  font-family: "PT Sans";
+  font-size: 24px;
+  width: 60%;
+  margin: 0 auto;
+
+}
