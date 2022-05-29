@@ -60,17 +60,19 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   overflow: hidden;
   min-height: 100%;
-  padding: 50px; }
+  padding: 50px;
+  min-width: 865px; }
 
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
 
 .block__row {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
   border: 20px solid #ece89d;
   margin: 0 0 20px 0;
-  flex-wrap: wrap; }
+  flex-direction: column;
+  height: 1000px; }
 
 .block__column {
   border: 20px solid #5e5373; }
@@ -80,7 +82,8 @@ body {
   padding: 50px;
   font-size: 50px;
   font-weight: 700;
-  color: #fff; }
+  color: #fff;
+  text-align: center; }
 
 .block__list {
   display: flex;
@@ -88,11 +91,12 @@ body {
   .block__list li {
     margin: 0 15px 0 0; }
     .block__list li:last-child {
-      margin: 0px; }
+      margin: 0; }
 
 .block__info {
   position: relative;
-  padding: 0 0 0 25px; }
+  padding: 0 0 0 25px;
+  line-height: 15px; }
 
 .block__info_y:before {
   content: '';

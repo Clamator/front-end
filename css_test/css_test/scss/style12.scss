@@ -5,6 +5,7 @@
   overflow: hidden;
   min-height: 100%;
   padding: 50px;
+  min-width: 865px;
 }
 
 body{
@@ -13,6 +14,7 @@ body{
 
 .block{
   //text-align: center;
+
 }
 
 .block__row{
@@ -20,7 +22,7 @@ body{
   display: flex;
   //justify-content: flex-end;
   //justify-content: center; разместить в центре или справа можно так
-  //justify-content: space-between; размещяет элементы от начала и до конца блока
+  justify-content: space-between; //размещяет элементы от начала и до конца блока
   // при этом делая одинаковое расстояние между элементами 1__2__3
   //justify-content: space-around; оставляет одинаковые отступы и справа, и слева элементов
   // при этом образуется двоейное расстояние между элементами типа _1__2__3_
@@ -30,17 +32,36 @@ body{
   //align-items: stretch; значения по умолчанию
   //align-items: flex-start; подтягивает наверх
   //align-items: flex-end; опускает вниз
-  align-items: center; // размещяет в центре
+  //align-items: center; // размещяет в центре
   //align-items: baseline; выстраивает элементы по базовой линии
   border: 20px solid #ece89d;
   margin: 0 0 20px 0;
-
-  flex-wrap: wrap; // позволяет перемещать элемент, если ему не хватает места в окне
+  //flex-wrap: wrap; // позволяет перемещать элемент, если ему не хватает места в окне
   // flex-wrap: wrap-reverse; также смещаются, но вверх ногами
+  flex-direction: column;
+
+  height: 1000px;
 }
+.block__column_1{
+  //align-self: flex-start; // применяется к конкретному элементу, аналог align-items
+}
+.block__column_2{
+  //flex: 1 1 auto;
+}
+.block__column_3{
+  //align-self: flex-end;
+}
+
+
 
 .block__column{
   border: 20px solid #5e5373;
+  //flex-basis: 500px; указывает ширину элемента, но не надо путать с width
+  //flex-grow: 1; //влияет на то, можно ли элемент увеличиться и заняться все место блока
+  // это только горизонтально, если 0 - то запрещено увеличиваться
+  // flex-shrink: 1; // разрешено ли уменьшаться,1 - да
+  // есть короткая запись для этих трех регуляторов размера
+  //flex: 0 1 auto; // сначала grow, потом shrink, потом basis
 }
 
 .block__item{
@@ -49,6 +70,7 @@ body{
   font-size: 50px;
   font-weight: 700;
   color: #fff;
+  text-align: center;
 }
 
 .block__list{
@@ -56,7 +78,7 @@ body{
   align-items: center;
   li{margin: 0 15px 0 0;
     &:last-child{
-      margin: 0px;
+      margin: 0;
     }
   }
 }
@@ -64,6 +86,7 @@ body{
 .block__info{
   position: relative;
   padding: 0 0 0 25px;
+  line-height: 15px;
 }
 
 .block__info_y:before{
