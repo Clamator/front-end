@@ -39,17 +39,16 @@ body{
   //flex-wrap: wrap; // позволяет перемещать элемент, если ему не хватает места в окне
   // flex-wrap: wrap-reverse; также смещаются, но вверх ногами
   flex-direction: column;
-
-  height: 1000px;
+  height: 600px;
 }
 .block__column_1{
-  //align-self: flex-start; // применяется к конкретному элементу, аналог align-items
+  align-self: flex-start; // применяется к конкретному элементу, аналог align-items
 }
 .block__column_2{
-  //flex: 1 1 auto;
+  flex: 1 1 auto;
 }
 .block__column_3{
-  //align-self: flex-end;
+  align-self: flex-end;
 }
 
 

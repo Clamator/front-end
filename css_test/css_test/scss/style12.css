@@ -72,7 +72,16 @@ body {
   border: 20px solid #ece89d;
   margin: 0 0 20px 0;
   flex-direction: column;
-  height: 1000px; }
+  height: 600px; }
+
+.block__column_1 {
+  align-self: flex-start; }
+
+.block__column_2 {
+  flex: 1 1 auto; }
+
+.block__column_3 {
+  align-self: flex-end; }
 
 .block__column {
   border: 20px solid #5e5373; }
