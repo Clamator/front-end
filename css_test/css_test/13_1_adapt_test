@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FLEX HW</title>
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="scss/style13_1.css">
+
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div class="header__row">
+            <a href="#" class="header__logo">Main Button</a>
+            <div class="header__menu menu">
+                <div class="menu__icon icon-menu"></div>
+            </div>
+
+            <nav class="menu__body">
+                <ul class="menu__list">
+                    <li><a href="" class="menu__link">Menu1</a></li>
+                    <li><a href="" class="menu__link">Menu2</a></li>
+                    <li><a href="" class="menu__link">Menu3</a></li>
+                    <li><a href="" class="menu__link">Menu4</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <div class="first-line block">
+            <div class="first-line_row">
+                <img class="image" src="../css_test/img/flex/image.jpg" alt="">
+                <div class="first-line_text block-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Velit aperiam, enim asperiores explicabo eveniet labore
+                    repellendus quia aspernatur natus atque doloribus iusto
+                    tenetur totam excepturi cupiditate ipsam vero qui
+                    laudantium.
+                </div>
+            </div>
+            <div class="first-line_row">
+                <img class="image" src="../css_test/img/flex/image.jpg" alt="">
+                <div class="first-line_text block-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Velit aperiam, enim asperiores explicabo eveniet labore
+                    repellendus quia aspernatur natus atque doloribus iusto
+                    tenetur totam excepturi cupiditate ipsam vero qui
+                    laudantium.
+                </div>
+            </div>
+            <div class="first-line_row">
+                <img class="image" src="../css_test/img/flex/image.jpg" alt="">
+                <div class="first-line_text block-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Velit aperiam, enim asperiores explicabo eveniet labore
+                    repellendus quia aspernatur natus atque doloribus iusto
+                    tenetur totam excepturi cupiditate ipsam vero qui
+                    laudantium.
+                </div>
+            </div>
+        </div>
+
+        <div class="second-line block">
+            <div class="second-line_row">
+                <img class="image-2" src="../css_test/img/flex/image.jpg" alt="">
+                <div class="first-line_text block-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Velit aperiam, enim asperiores explicabo eveniet labore
+                    repellendus quia aspernatur natus atque doloribus iusto
+                    tenetur totam excepturi cupiditate ipsam vero qui
+                    laudantium.
+                </div>
+            </div>
+            <div class="second-line_row">
+                <img class="image-2" src="../css_test/img/flex/image.jpg" alt="">
+                <div class="first-line_text block-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Velit aperiam, enim asperiores explicabo eveniet labore
+                    repellendus quia aspernatur natus atque doloribus iusto
+                    tenetur totam excepturi cupiditate ipsam vero qui
+                    laudantium.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

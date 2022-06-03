@@ -1,0 +1,64 @@
+@import 'nullstyle.scss';
+
+.container {
+  max-width: 1180px;
+//   min-width: 1180px;
+  margin: 0 auto;
+}
+
+.header__row {
+    display: flex;
+    justify-content: space-between;
+    .menu__body{
+        display: flex;
+        
+    }
+}
+
+
+.first-line_row {
+    padding: 0px 5px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #445162;
+  justify-content: space-between;
+  padding: 50px 15px;
+
+}
+
+.image {
+  flex: 0 0 430px;
+  max-height: 150px;
+  margin-bottom: 20px;
+//   justify-content: center;
+}
+
+.block-text {
+  flex: 1 1 auto;
+  color: white;
+  padding: 0 20px 0 0;
+//   display: block;
+  font-size: 20px;
+  line-height: 25px;
+//   text-align: center;
+}
+
+.image-2 {
+  flex: 0 0 430px;
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.second-line_row {
+    padding: 0px 5px;
+    margin: 0 auto;
+    text-align: center;
+}
