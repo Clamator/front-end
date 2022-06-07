@@ -90,22 +90,23 @@ h1, h2, h3, h4, h5, h6 {
 .menu__list {
   display: flex;
   flex-direction: row;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
 }
 
 .link {
   text-decoration: none;
-  color: #000;
+  color: #71a100;
 }
 
 .menu__list li {
   display: flex;
-  width: 80px;
+  width: 100px;
   height: 40px;
+  border-radius: 10px;
   margin: 0px 20px;
   background-color: red;
-  border: 1px solid red;
+  border: 1px solid #410000;
   justify-content: center;
   align-items: center;
 }
@@ -127,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .image {
-  flex: 0 0 430px;
+  flex: 0 1 33.333%;
   max-height: 150px;
   margin-bottom: 20px;
 }
@@ -141,8 +142,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .image-2 {
-  flex: 0 0 430px;
+  flex: 0 0 50%;
   max-height: 300px;
+  margin: 0 auto;
   margin-bottom: 20px;
 }
 

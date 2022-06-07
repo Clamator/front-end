@@ -100,6 +100,12 @@ body {
 .hi__list li:last-child {
   margin: 0; }
 
+.hi__image {
+  flex: 0 0 40%; }
+
+.hi__image img {
+  max-width: 100%; }
+
 .title {
   color: #445161;
   font-size: 30px; }
@@ -111,7 +117,7 @@ body {
   display: flex; }
 
 .what__image {
-  flex: 0 0 430px; }
+  flex: 0 0 40%; }
 
 .what__image img {
   max-width: 100%; }
