@@ -102,14 +102,12 @@ h1, h2, h3, h4, h5, h6 {
   display: flex; }
 
 .pic {
-  flex: 0 0 33.333%;
   margin-bottom: 15px; }
 
 .pic img {
   max-width: 100%; }
 
 .pic-2 {
-  flex: 0 0 50%;
   margin-bottom: 15px; }
 
 .pic-2 img {
@@ -119,10 +117,12 @@ h1, h2, h3, h4, h5, h6 {
   display: flex; }
 
 .first-line_row {
-  padding: 10px; }
+  padding: 10px;
+  flex: 0 1 33.1%; }
 
 .second-line_row {
-  padding: 10px; }
+  padding: 10px;
+  flex: 0 1 50%; }
 
 .block {
   background-color: #0e6f78;
