@@ -59,6 +59,22 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
 
+@media (max-width: 1180px) {
+  .container {
+    max-width: 970px; } }
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px; } }
+@media (max-width: 767px) {
+  .container {
+    max-width: 480px;
+    font-family: monospace; }
+
+  .hi__title {
+    font-size: 20px; } }
+@media (max-width: 500px) {
+  .container {
+    max-width: none; } }
 .wrapper {
   min-height: 100%;
   overflow: hidden;

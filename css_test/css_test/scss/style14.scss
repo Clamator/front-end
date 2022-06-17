@@ -1,0 +1,125 @@
+@import "nullstyle.scss";
+
+body{
+}
+.wrapper{
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.link-name{
+  text-decoration: none;
+  margin: 50px;
+  //height: 44px;
+  padding: 10px 50px;
+  line-height: 60px;
+  background-color: #0e6f78;
+  display: inline-block;
+  color: white;
+  font-size: 24px;
+  border-radius: 10px;
+  box-shadow: 0 6px 40px #80b7b3;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  //top: 0;
+  //position: relative;
+}
+
+.name-1:hover{
+  transition-delay: 1s, 3s;
+  transition-duration: 1s, 2s;
+  transition-property: color, background-color;
+  color: #f60101;
+  background-color: #71a100;
+  //transition: color 1s ease 1s, background-color 2s ease 3s;
+}
+
+.name-1:active{
+  position: relative;
+  top: 3px;
+}
+
+.content__circle{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: red;
+  position: relative;
+  left: 0;
+  margin-bottom: 30px;
+}
+
+.content__circle:hover{
+  width: 300px;
+  height: 300px;
+  transition-duration: 1s;
+  background-color: green;
+  //transition-timing-function: steps(200, start);
+  transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.content__circle2{
+  //width: 192px;
+  //height: 192px;
+  //border-radius: 50%;
+  //background-color: black;
+  position: relative;
+  left: 0;
+  animation-name: black-circle;
+  animation-duration: 5s;
+  //animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  animation-timing-function: linear;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+  // можно убрать кадр 50% чтобы сам
+  // туда обратно ходил
+  animation-play-state: running; //можно паузить и возвращать на начало
+  animation-delay: 2s;
+  animation-fill-mode: forwards;//какие значения применятся после окончания анимации
+  // forwards принуждает применить конечные значения, щя кружок останется в конце
+}
+
+.content__circle3{
+  position: relative;
+  left: 0;
+  animation-name: note_circle;
+  animation-duration: 5s;
+  animation-timing-function: inherit;
+  animation-iteration-count: 3;
+  animation-play-state: running;
+  animation-fill-mode: forwards;
+  //animation-direction: alternate;
+}
+@keyframes note_circle {
+  0%{
+    left: 0;
+  }
+  25%{
+    left: 200px;
+  }
+  50%{
+    left: 200px;
+    bottom: -200px;
+  }
+  75%{
+    left: 0;
+    bottom: -200px;
+  }
+  100%{
+    left: 0;
+  }
+}
+
+
+@keyframes black-circle {
+  0%{
+    left: 0;
+  }
+  //50%{
+  //  left: 500px;
+  //
+  //}
+  100%{
+    left: 500px;
+  }
+}

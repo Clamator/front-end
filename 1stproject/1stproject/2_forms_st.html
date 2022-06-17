@@ -5,15 +5,65 @@
         <title>Forms</title>
     </head>
 
+    <aside>
+        <!-- Боковая панель (сайдбар) -->
+        <nav>
+            <!-- Дополнительное меню страницы -->
+            <ul>
+                <li><a href="/service-1/">Услуга 1</a></li>
+                <li><a href="/service-2/">Услуга 2</a></li>
+                <li><a href="/service-3/">Услуга 3</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <article>
+        <header>
+            <img src="logo.png" alt="404">
+            <h1>Pidersia</h1>
+            <a href="#chooser"> chooser link</a>
+        </header>
+
+        <aside>
+            <ul>
+                <li><a href="#">Piece of news 1</a></li>
+                <li><a href="#">Piece of news 2</a></li>
+                <li><a href="#">Piece of news 3</a></li>
+                <li><a href="#">Piece of news 4</a></li>
+            </ul>
+        </aside>
+
+        <footer>
+            <address>
+                <a href="tel:+79964042237">Call us</a>
+                <p>Alexander</p>
+                <time datetime="2022-06-14">14-06-2022</time>
+            </address>
+        </footer>
+    </article>
+
+    <section itemscope itemtype="https://schema.org/Organization">
+        <h1>Компания «Прауд»</h1>
+        <p>Адрес: <span itemprop="address">г.Мотино, улица Строителей, дом 6</span></p>
+        <p>Телефон: <span itemprop="telephone">8(765) 333-00-00</span></p>
+        <p>Email: <span itemprop="email">info@proud-company.test</span></p>
+    </section>
+
+
     <body>
         <form action="#" method="post" enctype="multipart/form-data"></form>
         <div>
             <input placeholder="Enter text" type="text" name="username" value=""/>
         </div>
-
+        <br>
         <div>
             <input type="password" name="userpass" value=""/>
         </div>
+
+        <form>
+            <label for="name">Введите имя</label>
+            <input type="text" id="name">
+        </form>
 
         <div>
             <p><input type="radio" name="beer" value="blanche"/> White beer</p>
@@ -69,6 +119,55 @@
         <div>
             <button type="reset" > Clear data</button>
         </div>
+
+        <form>
+            <select multiple>
+                <option>JS</option>
+                <option>PHP</option>
+                <option>Java</option>
+                <option>Racket</option>
+                <option>HTML</option>
+                <option>CSS</option>
+            </select>
+        </form>
+
+        <div>
+            <p><input type="radio" name="beer" value="blanche"/> White beer</p>
+            <p><input type="radio" name="beer" value="Dark"/> Dark beer</p>
+            <p><input type="radio" name="beer" value="IPA"/> Indian pale ale</p>
+        </div>
+        <br>
+
+        <div>
+            <p><input type="radio" name="beer" value="blanche"/> White beer</p>
+            <p><input checked type="radio" name="beer" value="Dark"/> Dark beer</p>
+            <p><input type="radio" name="beer" value="IPA"/> Indian pale ale</p>
+        </div>
+
+        <div>
+            <p><input type="checkbox" name="beer1" value="yes" /> White beer </p>
+            <p><input type="checkbox" name="beer2" value="yes" /> Dark beer </p>
+            <p><input type="checkbox" name="beer3" value="yes" /> Indian pale ale </p>
+        </div>
+
+        <div>
+            <p><input type="file" name="photo" /> </p>
+        </div>
+
+        <div>
+            <textarea placeholder="Enter text" name="text"></textarea>
+        </div>
+
+        <div id="chooser">
+            Choose a car:
+            <select name="car">
+                <option value="BMW">BMW</option>
+                <option value="VW">VW</option>
+                <option value="AM">AM</option>
+                <option value="AR">AR</option>
+            </select>
+        </div>
+
 
     </body>
 </html>
