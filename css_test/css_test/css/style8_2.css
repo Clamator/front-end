@@ -35,7 +35,7 @@ body {
 
 }
 
-.navbar .container{
+.navbar .wrapper{
     height: inherit;
     display: flex;
     justify-content: space-between;

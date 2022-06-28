@@ -1,0 +1,46 @@
+@import 'nullstyle.css';
+
+.wrapper{
+  margin: 0 auto;
+  max-width: 1300px;
+  //padding-top: 50px;
+  //background-color: darkseagreen;
+  padding: 50px 15px 0;
+}
+
+.block{
+  font-size: 30px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.grid1{
+  display: grid;
+  background-color: red;
+}
+
+.grid-inline{
+  display: inline-grid;
+  background-color: green;
+  //margin-bottom: 50px;
+}
+
+.grid{
+  position: relative;
+}
+
+.grid__body{
+  display: grid;
+  grid-template-columns: 33.333% 33.333% 33.333%;
+  // grid-template-columns: 1fr 2fr 1fr; - заполнят весь ряд
+  // grid-template-columns: 0.1fr 0.5fr 0.2fr - не весь
+  grid-template-rows: 50% 50%; // грид контейнера, а сколько это - хз
+
+}
+
+.grid__item{
+  padding: 30px;
+  font-size: 24px;
+  text-align: center;
+  border: 1px dashed green;
+}

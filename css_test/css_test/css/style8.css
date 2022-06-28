@@ -20,6 +20,40 @@ body{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
+.parent{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: violet;
+    padding: 50px;
+    text-align: center;
+    /*position: relative;*/
+
+}
+.block0{
+    padding: 50px;
+    width: 100%;
+}
+
+.block1{
+    background: red;
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+}
+.block2{background: green}
+.block3{
+    background: blue;
+    position: sticky;
+    top: 100px;
+
+}
+.block4{background: #e8e8e8}
+.block5{background: orange}
+
+/*-------------------*/
+
 .block{
     border: 5px solid red;
     max-width: 800px;
@@ -27,6 +61,7 @@ body{
     height: 1500px;
     color: black;
     position: relative;
+    /*margin-bottom: 100px;*/
 }
 .block div{
     font-size: 18px;
@@ -109,4 +144,39 @@ body{
     color: blueviolet;
     top: 160px;
     background-color: seagreen;
+}
+.flip{padding-bottom: 50px;
+padding-top: 50px}
+.flip-body{
+    margin: 0 auto;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transition: all 0.8s ease 0s;
+    transform-style: preserve-3d;
+    background-color: #80b7b3;
+}
+.flip-front, .flip-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flip-front{
+    z-index: 2;
+    background-color: #273d46;
+    backface-visibility: hidden;
+}
+.flip-back{
+    background-color: #80b7b3;
+    transform: rotateY(-180deg);
+}
+
+.flip-body:hover{
+    transform: rotateY(180deg);
 }

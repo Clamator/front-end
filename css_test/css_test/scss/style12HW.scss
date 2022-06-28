@@ -5,19 +5,19 @@ body{
 }
 
 @media (max-width: 1180px) {
-  .container{
+  .wrapper{
     max-width: 970px;
   }
 }
 
 @media (max-width: 992px) {
-  .container{
+  .wrapper{
     max-width: 750px;
   }
 }
 
 @media (max-width: 767px) {
-  .container{
+  .wrapper{
     max-width: 480px;
     font-family: monospace;
   }
@@ -27,7 +27,7 @@ body{
 }
 
 @media (max-width: 500px) {
-  .container{
+  .wrapper{
     max-width: none;
   }
 }
@@ -39,7 +39,7 @@ body{
   flex-direction: column;
 }
 
-.container{
+.wrapper{
   max-width: 1180px;
   margin: 0 auto;
 }

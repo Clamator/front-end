@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: inherit; }
 
-.container {
+.wrapper {
   max-width: 1180px;
   margin: 0 auto; }
 

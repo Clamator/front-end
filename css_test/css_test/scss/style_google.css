@@ -58,10 +58,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: inherit; }
 
-.container {
+.wrapper {
   font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
   height: 0px;
-  width: 1357px;
+  max-width: 1357px;
   margin: 0 auto;
   background-color: green; }
 

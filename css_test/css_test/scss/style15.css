@@ -105,4 +105,28 @@ a {
   display: inline-block;
   margin: 0 0 20px 0; }
 
+.test {
+  color: red;
+  border: 1px solid red;
+  display: inline-block;
+  padding: 10px;
+  text-align: center; }
+
+.test2 {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  transition: all 0.8s ease 0s;
+  transform-style: preserve-3d;
+  position: relative; }
+
+.test2-word {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: red; }
+
 /*# sourceMappingURL=style15.css.map */

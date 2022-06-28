@@ -1,0 +1,34 @@
+@import url(nullstyle.css);
+.wrapper {
+  margin: 0 auto;
+  max-width: 1300px;
+  padding: 50px 15px 0; }
+
+.block {
+  font-size: 30px;
+  padding: 20px;
+  margin-bottom: 20px; }
+
+.grid1 {
+  display: grid;
+  background-color: red; }
+
+.grid-inline {
+  display: inline-grid;
+  background-color: green; }
+
+.grid {
+  position: relative; }
+
+.grid__body {
+  display: grid;
+  grid-template-columns: 33.333% 33.333% 33.333%;
+  grid-template-rows: 50% 50%; }
+
+.grid__item {
+  padding: 30px;
+  font-size: 24px;
+  text-align: center;
+  border: 1px dashed green; }
+
+/*# sourceMappingURL=style17.css.map */
