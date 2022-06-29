@@ -3,6 +3,7 @@
 .wrapper{
   margin: 0 auto;
   max-width: 1300px;
+  min-width: 460px;
   //padding-top: 50px;
   //background-color: darkseagreen;
   padding: 50px 15px 0;
@@ -27,20 +28,55 @@
 
 .grid{
   position: relative;
+  margin-bottom: 30px;
 }
 
 .grid__body{
+  //margin: 0 15px;
   display: grid;
-  grid-template-columns: 33.333% 33.333% 33.333%;
+  //grid-template-columns: minmax(100px, 33.333%) minmax(100px, 33.333%) minmax(100px, 33.333%);
+  grid-template-columns: repeat(3, 1fr);
   // grid-template-columns: 1fr 2fr 1fr; - заполнят весь ряд
   // grid-template-columns: 0.1fr 0.5fr 0.2fr - не весь
+  //grid-template-columns: 200px minmax(100px, 300px) 200px;
   grid-template-rows: 50% 50%; // грид контейнера, а сколько это - хз
-
+  // можно просто все в grid-template запихнуть
+  grid-template:
 }
-
+.second-name{
+  padding: 10px;
+  font-size: 32px;
+  font-weight: 700;
+}
 .grid__item{
   padding: 30px;
   font-size: 24px;
   text-align: center;
   border: 1px dashed green;
+}
+// ------------
+
+.grid-wrapper{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: 100px 1fr;
+  grid-template-areas: "header header"
+                       "side content";
+}
+.second{
+  padding: 30px;
+  font-size: 24px;
+  //text-align: center;
+  border: 1px dashed green;
+  margin-bottom: 15px;
+}
+
+.grid-header{
+  grid-area: header;
+}
+.grid-side{
+  grid-area: side;
+}
+.grid-content{
+  grid-area: content;
 }

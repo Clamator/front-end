@@ -2,6 +2,7 @@
 .wrapper {
   margin: 0 auto;
   max-width: 1300px;
+  min-width: 460px;
   padding: 50px 15px 0; }
 
 .block {
@@ -18,17 +19,44 @@
   background-color: green; }
 
 .grid {
-  position: relative; }
+  position: relative;
+  margin-bottom: 30px; }
 
 .grid__body {
   display: grid;
-  grid-template-columns: 33.333% 33.333% 33.333%;
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 50% 50%; }
+
+.second-name {
+  padding: 10px;
+  font-size: 32px;
+  font-weight: 700; }
 
 .grid__item {
   padding: 30px;
   font-size: 24px;
   text-align: center;
   border: 1px dashed green; }
+
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: 100px 1fr;
+  grid-template-areas: "header header" "side content"; }
+
+.second {
+  padding: 30px;
+  font-size: 24px;
+  border: 1px dashed green;
+  margin-bottom: 15px; }
+
+.grid-header {
+  grid-area: header; }
+
+.grid-side {
+  grid-area: side; }
+
+.grid-content {
+  grid-area: content; }
 
 /*# sourceMappingURL=style17.css.map */
