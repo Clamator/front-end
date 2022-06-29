@@ -1,62 +1,110 @@
-@import url(nullstyle.css);
+@import 'nullstyle.css';
 .wrapper {
   margin: 0 auto;
   max-width: 1300px;
   min-width: 460px;
-  padding: 50px 15px 0; }
+  min-height: 1600px;
+  padding: 50px 15px 0;
+}
 
 .block {
   font-size: 30px;
   padding: 20px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
 .grid1 {
   display: grid;
-  background-color: red; }
+  background-color: red;
+}
 
 .grid-inline {
   display: inline-grid;
-  background-color: green; }
+  background-color: green;
+}
 
 .grid {
   position: relative;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+}
 
 .grid__body {
   display: grid;
+  row-gap: 20px;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 50% 50%; }
+  grid-template-rows: 50% 50%;
+}
 
 .second-name {
   padding: 10px;
   font-size: 32px;
-  font-weight: 700; }
+  font-weight: 700;
+}
 
 .grid__item {
   padding: 30px;
   font-size: 24px;
   text-align: center;
-  border: 1px dashed green; }
+  border: 1px dashed green;
+}
 
 .grid-wrapper {
   display: grid;
   grid-template-columns: 150px 1fr;
   grid-template-rows: 100px 1fr;
-  grid-template-areas: "header header" "side content"; }
+  grid-template-areas: "header header" "side content";
+}
 
 .second {
   padding: 30px;
   font-size: 24px;
   border: 1px dashed green;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+}
 
 .grid-header {
-  grid-area: header; }
+  grid-area: header;
+}
 
 .grid-side {
-  grid-area: side; }
+  grid-area: side;
+}
 
 .grid-content {
-  grid-area: content; }
+  grid-area: content;
+}
+
+.grid2 {
+  position: relative;
+}
+
+.grid__body2 {
+  display: grid;
+  row-gap: 20px;
+  column-gap: 10px;
+  grid-template-rows: [start] 150px [row2] 150px [row-end];
+  grid-template-columns: [start] 1fr [col2] 1fr [col3] 1fr [col-end];
+}
+
+.grid__item {
+  padding: 30px;
+  font-size: 24px;
+  text-align: center;
+  border: 1px dashed green;
+}
+
+.grid__item1 {
+  background-color: red;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  align-self: stretch;
+  justify-self: stretch;
+}
+
+.grid__item2 {
+  margin: auto;
+}
 
 /*# sourceMappingURL=style17.css.map */

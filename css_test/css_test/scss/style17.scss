@@ -4,6 +4,7 @@
   margin: 0 auto;
   max-width: 1300px;
   min-width: 460px;
+  min-height: 1600px;
   //padding-top: 50px;
   //background-color: darkseagreen;
   padding: 50px 15px 0;
@@ -34,6 +35,7 @@
 .grid__body{
   //margin: 0 15px;
   display: grid;
+  row-gap: 20px;
   //grid-template-columns: minmax(100px, 33.333%) minmax(100px, 33.333%) minmax(100px, 33.333%);
   grid-template-columns: repeat(3, 1fr);
   // grid-template-columns: 1fr 2fr 1fr; - заполнят весь ряд
@@ -41,7 +43,7 @@
   //grid-template-columns: 200px minmax(100px, 300px) 200px;
   grid-template-rows: 50% 50%; // грид контейнера, а сколько это - хз
   // можно просто все в grid-template запихнуть
-  grid-template:
+  //grid-template: repeat(3, 1fr) / repeat(2, 1fr);
 }
 .second-name{
   padding: 10px;
@@ -53,6 +55,8 @@
   font-size: 24px;
   text-align: center;
   border: 1px dashed green;
+  //margin: 15px;
+
 }
 // ------------
 
@@ -79,4 +83,42 @@
 }
 .grid-content{
   grid-area: content;
+}
+
+// ------------
+.grid2{
+  position: relative;
+  //margin-bottom: 30px;
+}
+.grid__body2{
+  display: grid;
+  row-gap: 20px;
+  column-gap: 10px;
+  //grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+  grid-template-rows: [start] 150px [row2] 150px [row-end];
+  grid-template-columns: [start] 1fr [col2] 1fr [col3] 1fr [col-end];
+  //justify-items: start;
+  //align-items: end;
+  // выравнивание можно назначить каждому элементу сетки отдельно
+}
+.grid__item{
+  padding: 30px;
+  font-size: 24px;
+  text-align: center;
+  border: 1px dashed green;
+  //row-gap: 20px;
+}
+
+.grid__item1{
+  background-color: red;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  align-self: stretch;
+  justify-self: stretch;
+}
+
+.grid__item2{
+  margin: auto;
 }
