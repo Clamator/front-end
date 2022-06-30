@@ -69,7 +69,16 @@ ul {
 
 /* ================ */
 .main {
-  grid-area: main; }
+  grid-area: main;
+  padding: 30px 15px;
+  display: grid;
+  grid-template: 1fr/1fr minmax(auto, 300px) minmax(auto, 1100px) 1fr; }
+
+.sidebar {
+  grid-column: 2/3; }
+
+.content {
+  grid-column: 3/4; }
 
 /* ================ */
 /* ================ */
