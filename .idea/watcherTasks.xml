@@ -14,7 +14,7 @@
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$USER_HOME$/AppData/Roaming/npm/sass" />
+      <option name="program" value="$PROJECT_DIR$/../../../../Program Files/Ruby30-x64/bin/sass" />
       <option name="runOnExternalChanges" value="true" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="true" />
