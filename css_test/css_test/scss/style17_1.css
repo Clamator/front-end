@@ -75,10 +75,19 @@ ul {
   grid-template: 1fr/1fr minmax(auto, 300px) minmax(auto, 1100px) 1fr; }
 
 .sidebar {
-  grid-column: 2/3; }
+  grid-column: 2/3;
+  background-color: lightseagreen;
+  padding: 15px; }
+
+.sidebar__list li {
+  margin: 0 0 15px 0; }
+
+.sidebar__link {
+  font-size: 24px; }
 
 .content {
-  grid-column: 3/4; }
+  grid-column: 3/4;
+  margin: 30px; }
 
 /* ================ */
 /* ================ */
