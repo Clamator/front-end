@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(nullstyle.css);
+@import "nullstyle.css";
 /*Обнуление*/
 *,
 *:before,
@@ -7,7 +7,8 @@
   padding: 0;
   margin: 0;
   border: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 html,
 body {
@@ -16,35 +17,43 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: #fff;
   font-size: 16px;
-  line-height: 24px; }
+  line-height: 24px;
+}
 
 a {
-  color: white; }
+  color: white;
+}
 
 h1 {
   font-size: 40px;
   line-height: 1;
-  margin: 0 0 50px 0; }
+  margin: 0 0 50px 0;
+}
 
 h2 {
   font-size: 30px;
   line-height: 1;
-  margin: 0 0 20px 0; }
+  margin: 0 0 20px 0;
+}
 
 ul {
-  list-style: none; }
+  list-style: none;
+}
 
 .container {
-  position: relative; }
+  position: relative;
+}
 
 .wrapper {
   max-width: 85rem;
   min-height: 100rem;
   background-color: #7a956b;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .main-header {
   padding: 50px 15px 0;
-  text-align: center; }
+  text-align: center;
+}
 
 /*# sourceMappingURL=style18_1.css.map */
