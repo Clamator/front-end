@@ -1,1 +1,7 @@
-{"version":3,"sourceRoot":"","sources":["style_not_mine.scss"],"names":[],"mappings":"AAAQ","file":"style_not_mine.css"}
+{
+"version": 3,
+"mappings": "AAAQ,iFAAyE;AAEzE,0BAAe;AACvB,UAQC;EAPC,WAAW,EAAE,QAAQ;EACrB,GAAG,EAAE,mLAGsC;EAC3C,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,MAAM;AAEpB,IAAI;EACF,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,QAAQ;;AAGvB,QAAQ;EACN,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,MAAM;EACb,MAAM,EAAE,MAAM;EACd,IAAI,EAAE,CAAC;EACP,GAAG,EAAE,CAAC;;AAGR,QAAQ;EACN,KAAK,EAAE,KAAK",
+"sources": ["style_not_mine.scss"],
+"names": [],
+"file": "style_not_mine.css"
+}

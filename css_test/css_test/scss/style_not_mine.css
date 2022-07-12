@@ -1,3 +1,22 @@
-@import "nullstyle.css";
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap");
+@import url(nullstyle.css);
+@font-face {
+  font-family: 'Gilroy';
+  src: local("Gilroy-Medium"), url("../Gilroy-Medium.ttf") format("truetype"), url("../Gilroy-Medium.eot?#iefix") format("embedded-opentype"), url("../Gilroy-Medium.woff") format("woff");
+  font-weight: 100;
+  font-style: normal; }
+body {
+  font-size: 18px;
+  font-family: "Gilroy"; }
+
+.wrapper {
+  position: absolute;
+  width: 1445px;
+  height: 4759px;
+  left: 0;
+  top: 0; }
+
+.content {
+  width: 940px; }
 
 /*# sourceMappingURL=style_not_mine.css.map */

@@ -1,1 +1,7 @@
-{"version":3,"sourceRoot":"","sources":["style_easy_level.scss"],"names":[],"mappings":"AAAQ","file":"style_easy_level.css"}
+{
+"version": 3,
+"mappings": "AAAQ,0BAAe",
+"sources": ["style_easy_level.scss"],
+"names": [],
+"file": "style_easy_level.css"
+}
