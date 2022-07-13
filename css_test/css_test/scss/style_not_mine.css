@@ -50,19 +50,37 @@ body {
   width: 940px; }
 
 .introduce__full-name {
-  max-width: 123.51px;
+  display: flex;
+  flex-direction: column;
   font-size: 47.3392px;
-  line-height: 59px; }
+  line-height: 59px;
+  align-self: end; }
 
 .introduce__main__info {
+  display: flex;
+  flex-direction: column;
   font-weight: 500;
   font-size: 18px;
-  line-height: 22px; }
+  line-height: 22px;
+  align-self: end; }
 
 .introduce__ru_eng {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5%;
+  align-self: end;
   transform: rotate(-90deg); }
 
 .introduce__photo {
-  position: absolute; }
+  padding-bottom: 104px; }
+
+.about {
+  text-align: center; }
+
+.about__me {
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+  font-weight: 700; }
 
 /*# sourceMappingURL=style_not_mine.css.map */

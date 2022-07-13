@@ -63,52 +63,46 @@ body{
   align-items: center;
   margin-bottom: 40px;
   width: 940px;
+
 }
 .introduce__full-name{
-  max-width: 123.51px;
+  //padding-top: 6%;
+  display: flex;
+  flex-direction: column;
   font-size: 47.3392px;
   line-height: 59px;
+  align-self: end;
 }
 .introduce__main__info{
+  display: flex;
+  flex-direction: column;
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
+  //padding-top: 6%;
+  align-self: end;
 }
 
 .introduce__ru_eng{
+  display: flex;
+  flex-direction: row;
+  padding-top: 5%;
+  align-self: end;
   transform: rotate(-90deg);
 }
 
-//photo
 .introduce__photo{
-  position: absolute;
+  padding-bottom: 104px;
 }
 
-//
-//.introduce__full-name{
-//  position: absolute;
-//  left: 18.60%;
-//  right: 74.08%;
-//  top: 2.69%;
-//  bottom: 94.82%;
-//  font-size: 47.3392px;
-//  line-height: 59px;
-//}
-//.introduce__main__info{
-//  position: absolute;
-//  left: 46.49%;
-//  right: 42.74%;
-//  top: 3.85%;
-//  bottom: 95.22%;
-//  font-size: 18px;
-//  line-height: 22px;
-//}
-////flex
-//.introduce__languages{
-//  position: absolute;
-//  font-size: 16px;
-//  line-height: 20px;
-//  display: inline-block;
-//  left: 78.5%;
-//  top: 3.85%;
-//  transform: rotate(-90deg);
+.about{
+  text-align: center;
+}
+.about__me{
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+  font-weight: 700;
+}
+.about__text{}
+.text{}
