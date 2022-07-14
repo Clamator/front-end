@@ -21,7 +21,8 @@ body {
   margin: 0 auto; }
 
 .introduce__menu {
-  margin: 40px 0; }
+  margin: 40px 0;
+  padding: 0 5px; }
 
 .introduce__list {
   display: flex;
@@ -53,8 +54,7 @@ body {
   display: flex;
   flex-direction: column;
   font-size: 47.3392px;
-  line-height: 59px;
-  align-self: end; }
+  line-height: 59px; }
 
 .introduce__main__info {
   display: flex;
@@ -62,25 +62,52 @@ body {
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
-  align-self: end; }
+  align-self: end;
+  padding-bottom: 1.3%; }
 
 .introduce__ru_eng {
   display: flex;
   flex-direction: row;
-  padding-top: 5%;
+  padding-top: 8%;
   align-self: end;
-  transform: rotate(-90deg); }
+  transform: rotate(-90deg);
+  padding-left: 7px; }
+
+.ru {
+  padding-right: 5px; }
+
+.eng {
+  padding-left: 5px; }
+
+.button a {
+  color: black; }
 
 .introduce__photo {
   padding-bottom: 104px; }
 
 .about {
-  text-align: center; }
+  text-align: center;
+  background-color: #F6F6F6; }
 
 .about__me {
+  padding-top: 120px;
   font-size: 34px;
   line-height: 42px;
   color: #070707;
-  font-weight: 700; }
+  font-weight: 700;
+  margin-bottom: 18px; }
+
+.about__text {
+  font-size: 18px;
+  line-height: 22px; }
+
+.about__text p:nth-child(2) {
+  padding-bottom: 40px; }
+
+.about__text p:nth-child(4) {
+  padding-bottom: 40px; }
+
+.about__text p:last-child {
+  padding-bottom: 107px; }
 
 /*# sourceMappingURL=style_not_mine.css.map */
