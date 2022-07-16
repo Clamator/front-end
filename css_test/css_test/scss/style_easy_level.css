@@ -7,20 +7,24 @@
   font-style: normal; }
 body {
   font-size: 18px;
-  font-family: "Gilroy"; }
+  font-family: "Gilroy";
+  max-width: 100%; }
 
 .wrapper {
   position: relative;
-  width: 1445px;
-  height: 4759px;
+  max-width: 100%;
   margin: 0 auto; }
 
 .content {
+  max-width: 100%;
+  margin: 0 auto; }
+
+.introduce {
+  width: 940px;
   margin: 0 auto; }
 
 .introduce__menu {
   margin: 40px auto;
-  width: 940px;
   padding: 0 5px; }
 
 .introduce__list {
@@ -39,7 +43,6 @@ body {
 
 .border {
   border-bottom: 1px solid #828282;
-  width: 940px;
   margin: 0 auto 40px; }
 
 .introduce__name {
@@ -68,7 +71,7 @@ body {
 .introduce__ru_eng {
   display: flex;
   flex-direction: row;
-  padding-top: 8%;
+  padding-top: 6%;
   align-self: end;
   transform: rotate(-90deg);
   padding-left: 7px; }
@@ -82,25 +85,34 @@ body {
 .button a {
   color: black; }
 
-.introduce__photo {
+.introduce__photo img {
   padding-bottom: 104px;
-  text-align: center; }
+  text-align: center;
+  max-width: 940px; }
 
 .about {
+  min-width: 940px;
+  max-width: 1445px;
   text-align: center;
-  background-color: #F6F6F6; }
+  background-color: #F6F6F6;
+  width: 100%;
+  margin: 0 auto 91px; }
 
-.about__me {
-  padding-top: 120px;
+.common__header {
   font-size: 34px;
   line-height: 42px;
   color: #070707;
-  font-weight: 700;
-  margin-bottom: 18px; }
+  font-weight: 700; }
 
-.about__text {
+.about__me {
+  padding: 120px 0 18px; }
+
+.text {
   font-size: 18px;
   line-height: 22px; }
+
+.about__text {
+  max-width: 100%; }
 
 .about__text p:nth-child(2) {
   padding-bottom: 40px; }
@@ -110,5 +122,40 @@ body {
 
 .about__text p:last-child {
   padding-bottom: 107px; }
+
+.skills {
+  margin: 0 auto;
+  text-align: center;
+  width: 940px; }
+
+.skills__header {
+  margin-bottom: 69px; }
+
+.skills__description {
+  margin-bottom: 83.5px; }
+
+.skills__programs__columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex: 0 1 25%; }
+
+.skills__column {
+  width: 166.46px;
+  height: 206.29px; }
+
+.item__image img {
+  max-width: 89px;
+  max-height: 89px;
+  min-height: 89px; }
+
+.item__image {
+  margin-bottom: 23px; }
+
+.item__name {
+  font-size: 14px;
+  line-height: 17px;
+  opacity: 0.5;
+  font-weight: 700; }
 
 /*# sourceMappingURL=style_easy_level.css.map */
