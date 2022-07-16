@@ -27,22 +27,30 @@
 
             <div class="introduce__name">
                 <div class="introduce__full-name">
-                    <div class="name">Denis</div>
-                    <div class="surname">Novak</div>
+                    <p class="name">Denis</p>
+                    <p class="surname">Novik</p>
                 </div>
                 <div class="introduce__main__info">
-                    <div class="profession">UX | UI designer </div>
-                    <div class="city__age">24 years old, Minsk</div>
+                    <p class="profession">UX | UI designer </p>
+                    <p class="city__age">24 years old, Minsk</p>
                 </div>
                 <div class="introduce__ru_eng">
-                    <div class="ru button"><a href="#">RU</a></div>
-                    <div class="slash">|</div>
-                    <div class="eng button"><a href="#">ENG</a></div>
+                    <div class="button">
+                        <a href="#" class="ru button">RU</a>
+                        <span>|</span>
+                        <a href="#" class="eng button">ENG</a>
+
+                    </div>
                 </div>
             </div>
             <div class="introduce__photo photo">
                 <div class="introduce__photo__container">
-                    <img src="../css_test/img/easy/man.jpg" alt="404">
+                    <picture>
+                        <source srcset="img/easy/man.jpg" type="image/jpeg" media="(min-width:530px)">
+                        <source srcset="img/easy/manportrait.png" type="image/jpeg" media="(max-width:529px)">
+                        <img src="../css_test/img/easy/man.jpg" alt="404">
+                    </picture>
+
                 </div>
 
             </div>
