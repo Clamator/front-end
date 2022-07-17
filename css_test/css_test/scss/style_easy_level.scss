@@ -40,16 +40,21 @@ body{
   .portfolio__item__link{
     padding-bottom: 0;
   }
-
+  .introduce{
+    position: relative;
+  }
   .introduce__name{
+    position: absolute;
+    top: 0;
+    left: 0 ;
     flex-direction: column;
     max-width: 155px;
     margin: 0 0 40px 0;
   }
   .photo img{
-    text-align: center;
-    max-width: 100%;
+    margin-top: 204px;
   }
+
 }
 
 
@@ -59,7 +64,7 @@ body{
     margin-top: 65px;
   }
   .introduce{
-    padding: 0 30px;
+    //padding: 0 30px;
   }
 
   .contacts__button{
@@ -82,6 +87,12 @@ body{
   .portfolio__item__link{
     padding-bottom: 0;
   }
+}
+
+
+// burger-menu
+.wrapper0{
+  display: none;
 }
 
 //main
