@@ -30,4 +30,12 @@
   background-color: violet;
   margin-top: 50px; }
 
+#check-menu:checked ~ .block__1 {
+  width: 100%;
+  z-index: 2; }
+
+#check-menu:checked ~ .block__3 {
+  display: none;
+  overflow: hidden; }
+
 /*# sourceMappingURL=style_test.css.map */

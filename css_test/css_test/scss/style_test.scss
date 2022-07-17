@@ -13,12 +13,10 @@
   height: 50px;
   font-size: 24px;
   line-height: 50px;
-
 }
 .block__1{
   background-color: yellow;
   position: absolute;
-  //z-index: 1;
   width: 50%;
   top: 0;
   left: 0;
@@ -29,9 +27,16 @@
   top: 0;
   right: 0;
   width: 50%;
-  //z-index: 1;
 }
 .block__3{
   background-color: violet;
   margin-top: 50px;
+}
+#check-menu:checked ~ .block__1{
+  width: 100%;
+  z-index: 2;
+}
+#check-menu:checked ~ .block__3{
+  display: none;
+  overflow: hidden;
 }
